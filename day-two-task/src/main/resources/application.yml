@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    password: Mesneha123
+    url: jdbc:oracle:thin:@localhost:1521:XE
+    username: system
+    
+  jpa:
+    hibernate:
+       ddl-auto: update
+    show-sql: true
+
+server:
+    port: 4046
